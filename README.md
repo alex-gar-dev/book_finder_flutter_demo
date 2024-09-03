@@ -1,3 +1,2 @@
-# book_finder_flutter_demo
+# Book finder
 
-A new Flutter project.
