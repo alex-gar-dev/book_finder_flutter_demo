@@ -30,7 +30,6 @@ flutter_native_splash:
 
   android_12:
     image: assets/images/book_finder_logo.png
-    icon_background_color: "#ffffff"
     image_dark: assets/images/book_finder_logo.png
 
 flutter_launcher_icons:

@@ -146,7 +146,8 @@ class _MyAccountScreenState extends State<MyAccountScreen> {
       bottomNavigationBar: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(
-            horizontal: 25
+            horizontal: 25,
+            vertical: 30
           ),
           child: UxBfButton(
             label: 'Save',

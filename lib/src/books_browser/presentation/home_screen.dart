@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             SizedBox(
-              height: 250,
+              height: 265,
               child: UxBfCarrouselTow(
                 items: HomeController.tow,
                 onPressed: (title, image) {

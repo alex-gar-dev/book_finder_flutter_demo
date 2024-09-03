@@ -10,6 +10,7 @@ void main() async {
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   final userInfo = await LocalStorageHandler.getUserInfoLocalStorage();
   ServiceLocator.setupLocator();
+  await Future.delayed(const Duration(seconds: 3));
   FlutterNativeSplash.remove();
   runApp(MainApp(
     userInfo: userInfo,
